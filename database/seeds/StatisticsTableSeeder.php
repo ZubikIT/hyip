@@ -10,9 +10,9 @@ class StatisticsTableSeeder extends Seeder {
 	*/
 	public function run() {
 		DB::table('statistics')->insert([
-			'invested' => 0,
-			'reinvested' => 0,
-			'balance' => 0,
+			'replenished' => 0,
+            'invested' => 0,
+            'balance' => 0,
 			'paidout' => 0,
 			'registered' => 0,
 			'active' => 0,
